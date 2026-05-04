@@ -25,5 +25,5 @@ func _input(event: InputEvent) -> void:
 		rotate_object_local(Vector3.RIGHT, rot_y)
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta: float) -> void:
+func _process(_delta: float) -> void:
 	transform.orthonormalized()
